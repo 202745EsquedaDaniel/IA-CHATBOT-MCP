@@ -27,5 +27,5 @@ server.tool(
 ); 
 
 // 3. Escruchar las conexiones del cliente
-const transport = new StdioServerTransport
+const transport = new StdioServerTransport()
 await server.connect(transport)
